@@ -151,7 +151,7 @@ code {
 }
 
 .comment {
-  color: rgba(255, 255, 255, 0.8)
+  color: rgba(255, 255, 255, 0.8);
 }
 
 @media only screen and (max-width: 786px) {
@@ -161,8 +161,8 @@ code {
     background-color: var(--menu-bg);
     top: 0;
     left: 0;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     content: "\f105";
     color: white;
     display: flex;
