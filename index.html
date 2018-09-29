@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe Code (Mock Documentation Page)</title>
+  
+  
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Uncomment the script tag below to see and run the test suite -->
+
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<div id="body">
+  <input type="checkbox" id="menu-toggle"><label for="menu-toggle"></label>
+  <nav id="navbar">
+    <header>
+      <i class="fas fa-code"></i>
+      <h1>Cafe</h1>
+    </header>
+    <ul>
+      <li><a href="#Hello_World" class="nav-link" onclick="uncheck()">Hello World</a></li>
+      <li><a href="#Cafe_Code_Basics" class="nav-link" onclick="uncheck()">Cafe Code Basics</a></li>
+      <li><a href="#Best_Practices" class="nav-link" onclick="uncheck()">Best Practices</a></li>
+      <li><a href="#Advanced_Usage" class="nav-link" onclick="uncheck()">Advanced Usage</a></li>
+      <li><a href="#Conclusion" class="nav-link" onclick="uncheck()">Conclusion</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Hello_World">
+      <header>Hello World</header>
+      <p>Cultivar mocha, so robusta single shot acerbic cup doppio et, aromatic lungo to go that steamed. Mocha crema americano steamed, pumpkin spice, chicory cream acerbic, caramelization coffee eu, irish kopi-luwak variety java seasonal. Breve cappuccino
+        grinder body blue mountain flavour, latte wings seasonal, bar strong espresso milk, sugar, siphon breve crema percolator aged latte siphon arabica. Skinny single origin white eu that single origin foam turkish cortado, roast flavour lungo frappuccino,
+        extra flavour, that, pumpkin spice iced cultivar, french press bar fair trade macchiato siphon. Strong, wings, at roast, arabica frappuccino variety at, so, variety skinny cream, mazagran, frappuccino mazagran siphon skinny french press wings
+        grounds filter single origin. Aged, cream bar viennese froth irish, steamed aged pumpkin spice frappuccino, con panna lungo fair trade café au lait medium.</p>
+      <p>At, macchiato, irish a, as, brewed ristretto roast, macchiato acerbic caramelization whipped french press, steamed, extraction at coffee brewed galão extraction breve single shot grounds. Cup cream brewed spoon, iced black, coffee plunger pot extraction
+        barista siphon mug galão. Grounds affogato qui caffeine java filter body saucer fair trade in medium in extraction. Dripper, extraction, cup, percolator skinny coffee single origin lungo, aroma id brewed single shot wings half and half. Medium
+        est spoon as milk cream spoon, galão skinny, et espresso aromatic ut french press, in at coffee as sugar ristretto pumpkin spice rich galão. Grounds, frappuccino ristretto trifecta cup, java, grounds dark, body, aftertaste shop iced, brewed mazagran
+        cinnamon et at body.</p>
+    </section>
+    <section class="main-section" id="Cafe_Code_Basics">
+      <header>Cafe Code Basics</header>
+      <p>Pumpkin spice est to go that robust dark extra coffee extra strong. Bar est, steamed percolator cortado galão percolator cinnamon.
+      </p>
+      <ul>
+        <li>Kopi-luwak as coffee, wings black crema filter, irish milk so seasonal.</li>
+        <li>Est caramelization aroma body, qui plunger pot crema affogato siphon. </li>
+        <li>Fair trade trifecta, skinny robust aroma cup ristretto cortado. </li>
+        <li>Cinnamon, plunger pot, aromatic mocha eu lungo instant, that barista, qui frappuccino steamed rich.</li>
+        <li>Foam qui brewed americano, arabica organic single origin, as cup flavour, cinnamon siphon robust whipped ut iced. </li>
+      </ul>
+      <p>Pumpkin spice black galão whipped java cup kopi-luwak so mazagran. Blue mountain, filter half and half brewed grinder crema medium doppio macchiato arabica.</p>
+      <p>So pumpkin spice barista, to go steamed filter half and half mazagran. Medium, aged single shot frappuccino java, et robust macchiato flavour cappuccino ristretto.</p>
+      <code>
+        import { Cafe } from 'Cafe';        
+      </code><br>
+      <code>
+        let caffeinatedCode = Cafe.caffeinate(code);
+      </code>
+    </section>
+    <section class="main-section" id="Best_Practices">
+      <header>Best Practices</header>
+      <p>As frappuccino saucer, body sweet acerbic beans instant café au lait. Con panna carajillo brewed latte, as, galão carajillo irish steamed ristretto single origin.</p>
+      <p>Caffeine java trifecta doppio that affogato espresso mocha. Trifecta bar decaffeinated coffee siphon americano french press single origin dripper.</p>
+      <p>Con panna ut, affogato caffeine, doppio aroma, qui, strong coffee dripper caramelization body. Seasonal, espresso carajillo french press foam americano, variety aged turkish viennese coffee.</p>
+      <code>
+        <span class="comment">/* Use clear variable names to improve readability */</span>
+        
+        <span class="comment">/* DON'T */</span>
+        let c = Cafe.caffeinated(code);
+        
+        <span class="comment">/* DO */</span>
+        let caffeinatedCode = Cafe.caffeinated(code);
+      </code>
+    </section>
+    <section class="main-section" id="Advanced_Usage">
+      <header>Advanced Usage</header>
+      <p>That, aged lungo sugar robust aroma cinnamon. Caramelization ut, caffeine bar chicory et americano galão pumpkin spice siphon to go.</p>
+      <p>To go saucer and roast and café au lait that. French press black medium blue mountain shop decaffeinated cappuccino macchiato cream.</p>
+      <p>Blue mountain, qui sit lungo seasonal viennese plunger pot body. Sugar filter single origin bar mazagran single origin robust aromatic.</p>
+      <code>
+        <span class="comment">/* Decaffeinating your code */</span>
+        let decafCode = Cafe.decaffeinate(caffeinatedCode);
+      </code>
+      <code>
+        <span class="comment">/* Half caffeinating your code */</span>
+        let halfCafCode = Cafe.caffeinate(code, 2);
+      </code>
+    </section>
+    <section class="main-section" id="Conclusion">
+      <header>Conclusion</header>
+      <p>Irish, variety carajillo, americano variety crema extraction acerbic, eu filter caffeine seasonal, variety, grinder steamed espresso galão acerbic sugar sweet. Flavour aged sugar ristretto, cup shop sweet, roast doppio extra viennese breve foam,
+        kopi-luwak affogato, organic black cream doppio ristretto medium. Beans iced, foam barista cinnamon iced black frappuccino robust froth, medium, french press sweet iced plunger pot coffee americano. Extra milk brewed ristretto percolator body
+        mocha barista, milk, and half and half cinnamon, percolator medium viennese, steamed spoon con panna mazagran mocha. Fair trade half and half steamed lungo, kopi-luwak cup, ut, strong, caffeine aroma robust, cup milk beans, redeye crema steamed
+        affogato kopi-luwak. Iced strong steamed decaffeinated café au lait, mocha wings black ristretto crema, mug, froth java skinny body crema macchiato crema.</p>
+      <p>Eu macchiato pumpkin spice turkish et blue mountain aroma turkish blue mountain redeye kopi-luwak. Ristretto siphon acerbic crema et as acerbic half and half ut aroma. Chicory, affogato, decaffeinated, blue mountain, siphon, variety cappuccino wings
+        milk whipped. Beans as irish id latte plunger pot to go.</p>
+    </section>
+  </main>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
